@@ -1,0 +1,70 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background-color: #2c2e43;
+font-family: sans-serif;
+}
+h1{
+    color: white;
+    margin: 10px auto;
+    width: 80vw;
+    /* border: 2px solid green; */
+    text-align: center;
+    font-size: 3rem;
+}
+/* //////////////// */
+.container{
+    /* border: thin solid green; */
+    width: 80vw;
+    height: 40vh;
+    margin: 200px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 10px;
+    font-size: 1rem;
+    background-color:#96baff;
+    box-shadow: 0px 0px 5px rgb(135,197,255);
+    border-radius: 19px;
+}
+#box{
+    height: 7px;
+    /* width: 10px; */
+    border-radius: 10px;
+    background-color: white;
+    animation: raghav 4s ease-in;
+    animation-iteration-count: infinite;
+}
+#quote{
+    text-align: center;
+    margin-top: 47px;
+}
+@keyframes raghav {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+    
+}
+.info_container{
+display: flex;
+align-items: center;
+margin-top: 47px;
+}
+.info_container img{
+    height: 60px;
+    width: 60px;
+border-radius: 30px;
+margin-right: 30px;
+}
+.info_container a{
+color: rgba(0, 0, 0, 0.493);
+font-size: 1.5rem;
+}
